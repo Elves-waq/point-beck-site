@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Grey Qo', cursive;
+
+}
+body{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image:url("/assets/img/fundotitulo.png");
+    background-size: contain;
+   
+}
+
+.toposite{
+    display: flex;
+    height: 120px;
+    background:linear-gradient(-180deg,#9400d3,#252525 );
+}
+
+.toporespo{
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    width: 100%;
+    max-width: 1200px;
+    margin:auto;
+   
+}
+
+.logo{
+    display: flex;
+    float: left;
+    height: 110px;
+    margin-left: 15px;
+
+}
+
+.logo a{
+    display: flex;
+}
+
+.logo a img {
+    object-fit: contain;
+}
+
+.menu{
+    display: flex;
+   
+}
+
+.menuint{
+    display:flex;
+}
+.menuint ul{
+    list-style: none;
+    display: inline-flex;
+
+}
+
+.menuint li{
+    display: inline-flex;
+    margin-right: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuint a{
+    text-decoration: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: bolder;
+    text-shadow: #9400d3 1px 2px 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.menuint li:hover a {
+    background-color: #9400d3;
+    color: #000;
+}
+
+.topredesgg{
+   display: flex;
+  justify-content: center;
+
+   
+}
+.topRight a img{
+    margin-top: 10px;
+    margin-right: 5px;
+    object-fit: contain;
+
+}
+
+.conteudosite{
+    display: flex;
+}
+
+.conteudorespo{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    
+   
+    
+}
+
+
+.ApresentacaoArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  
+
+}
+
+.areatitulo{
+    display: inline-flex;
+    color: #fff;
+    font-size: 80px;
+    margin-top: 25px;
+    font-weight: bolder;
+
+    
+  
+}
+
+.subtitulo{
+    align-self: flex-end;
+    position: absolute;
+    margin-top: 90px;
+    justify-self: flex-start;
+    font-size: 45px;
+    color: #fff;
+    font-weight: bolder;
+
+}
+.slide{
+    margin-top: 15px;
+    margin-left: 300px;
+    background-color: red;
+    height: 380px;
+    width: 600px;
+    overflow: hidden;
+}
+.slideapresentaçao{
+    font-size: 25px;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+
+.slidearea{
+    height:380px;
+   width: 100000px;
+}
+
+.slideconteudo{
+    height: 380px;
+    float: left;
+    
+}
