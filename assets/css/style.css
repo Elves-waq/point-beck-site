@@ -1,26 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;600;700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@400;600;700&display=swap');
 *{
     box-sizing: border-box;
-    font-family: 'Grey Qo', cursive;
+   font-family: 'Saira Condensed', sans-serif;;
 
 }
 body{margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-image:url("/assets/img/fundotitulo.png");
-    background-size: contain;
+    background-size: cover;
    
 }
 
 .toposite{
     display: flex;
-    height: 120px;
+    height: 100px;
     background:linear-gradient(-180deg,#9400d3,#252525 );
 }
 
 .toporespo{
     display: flex;
     justify-content: space-between;
-    height: 120px;
+    height: 100px;
     width: 100%;
     max-width: 1200px;
     margin:auto;
@@ -30,7 +31,7 @@ body{margin: 0;
 .logo{
     display: flex;
     float: left;
-    height: 110px;
+    height: 90px;
     margin-left: 15px;
 
 }
@@ -54,6 +55,8 @@ body{margin: 0;
 .menuint ul{
     list-style: none;
     display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -67,7 +70,7 @@ body{margin: 0;
 .menuint a{
     text-decoration: none;
     color: #000;
-    font-size: 28px;
+    font-size: 23px;
     font-weight: bolder;
     text-shadow: #9400d3 1px 2px 5px;
     padding: 5px;
@@ -89,7 +92,7 @@ body{margin: 0;
 .topRight a img{
     margin-top: 10px;
     margin-right: 5px;
-    object-fit: contain;
+    object-fit: cover;
 
 }
 
@@ -102,9 +105,7 @@ body{margin: 0;
     max-width: 1200px;
     width: 100%;
     margin: auto;
-    
-   
-    
+          
 }
 
 
@@ -120,8 +121,10 @@ body{margin: 0;
 .areatitulo{
     display: inline-flex;
     color: #fff;
-    font-size: 80px;
-    margin-top: 25px;
+    font-family:'Saira Condensed', sans-serif; ;
+    font-size: 50px;
+    margin-top: 45px;
+    margin-left: 50px;
     font-weight: bolder;
 
     
@@ -131,9 +134,10 @@ body{margin: 0;
 .subtitulo{
     align-self: flex-end;
     position: absolute;
-    margin-top: 90px;
+    margin-top: 85px;
+    font-family: 'Saira Condensed', sans-serif;;
     justify-self: flex-start;
-    font-size: 45px;
+    font-size: 35px;
     color: #fff;
     font-weight: bolder;
 
@@ -141,9 +145,8 @@ body{margin: 0;
 .slide{
     margin-top: 15px;
     margin-left: 300px;
-    background-color: red;
     height: 380px;
-    width: 600px;
+    max-width: 600px;
     overflow: hidden;
 }
 .slideapresentaçao{
@@ -163,4 +166,64 @@ body{margin: 0;
     height: 380px;
     float: left;
     
+}
+.videoslide{
+    width: 100vw;
+    max-width: 600px;
+}
+
+.content-anime{
+    display: flex;
+}
+.content-anime-respo{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  
+    
+}
+.content-anime-respo h2{
+    color: #fff;
+    margin-top: 35px;
+    font-size: 35px;
+
+
+}
+.area-animes{
+    display: grid;
+    margin: auto;
+    max-width: 1200px;
+    grid-template-areas: 
+    "naruto onepiece tokio"
+    "Nanatsu dragonbol ."
+    ;
+}
+.anime-contet-area{
+    width: 375px;
+    margin: 10px;
+   
+}
+.anime-contet-area h3{
+    color: #fff;
+    font-size: 20px;
+}
+.anime-contet-area img{
+    width: 375px;
+}
+.naruto{
+    grid-area: naruto;
+}
+.onepiece{
+    grid-area: onepiece;
+}
+.tokioghoul{
+    grid-area: tokio;
+}
+.Nanatsu{
+    grid-area: Nanatsu;
+}
+.dragonbol{
+    grid-area: dragonbol;
 }
