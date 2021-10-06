@@ -101,6 +101,7 @@ body{margin: 0;
     object-fit: cover;
 
 }
+/* area de apresentação */
 .conteudo-slide-area{
     margin-top: 100px;
 }
@@ -185,7 +186,7 @@ body{margin: 0;
     width: 100vw;
     max-width: 600px;
 }
-
+/* area de animes */
 .content-anime{
     display: flex;
 }
@@ -285,8 +286,9 @@ body{margin: 0;
 .dragonbol{
     grid-area: dragonbol;
 }
-
+/* area de videos */
 .area-videos{
+    width: 100%;
     max-width: 1200px;
     margin: auto;
    color: #fff;
@@ -324,3 +326,51 @@ body{margin: 0;
     margin-top: 15px;
     box-shadow: 2px 3px 10px #9400d3;
 }
+
+/* area Edits */
+.edits-area{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: auto;
+
+}
+.edits-area-resp{
+    display: flex;    
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    
+}
+.edits-area h4{
+    font-size: 35px;
+    color: #FFF;
+
+}
+.button-edits{
+    align-self: flex-end;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+    height: 30px;
+    text-decoration: none;
+    border-radius: 6px;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 600; 
+    margin-bottom: 40px;
+     
+}
+.button-edits:hover{
+    background-color: #9400d3;
+}
+.edits-area-content{
+    justify-self: flex-start;
+    width: 320px;
+    margin-top: 15px;
+    height: 200px;
+    background-color: black;
+    box-shadow: 2px 3px 10px #9400d3;
+}
+
