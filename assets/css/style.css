@@ -11,7 +11,7 @@ body{margin: 0;
     background-size: contain;
    
 }
-
+/* area menu e topo do site */
 .toposite{
     position: fixed;
     z-index: 10;
